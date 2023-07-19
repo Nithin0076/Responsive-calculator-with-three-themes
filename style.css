@@ -17,7 +17,7 @@
     --c3eqlhover:   hsl(6, 93%, 67%);
     --c3resethover: hsl(224, 51%, 76%);
     --c3hahover:    hsl(0, 0%, 100%);
---c3resetbgcolor:   hsl(225, 21%, 49%);
+    --c3resetbgcolor:   hsl(225, 21%, 49%);
     --c3resetshadow:hsl(224, 28%, 35%);
     --contentcolor: hsl(0, 0%, 100%);
     --eqlcolor:hsl(0, 0%, 100%);
@@ -118,6 +118,7 @@ body{
     width: 178px;
 }
 .container2{
+    max-width: 424px;
     width: 100%;
     height: 100px;
     background-color: var(--c2bgcolor);
@@ -208,5 +209,8 @@ body{
     }
     .container3 .del{
         padding-left: 8px;
+    }
+    .container2{
+        max-width: 344px;
     }
 }
