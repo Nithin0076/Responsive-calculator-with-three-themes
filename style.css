@@ -106,6 +106,7 @@ body{
     font-size: 28px;
     font-weight: lighter;
     cursor: pointer;
+    user-select: none;
 }
 .container3 div:last-child{
     color:var(--eqlcolor);
